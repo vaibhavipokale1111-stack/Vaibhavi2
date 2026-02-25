@@ -1,7 +1,7 @@
 
 //Method Overloading means having multiple methods with the same name in the same class,
 //but with different parameters (different number, type, or order of parameters).
-public class Calculator {
+/*public class Calculator {
 
     static int add(int a, int b) {
         return a + b;
@@ -43,7 +43,7 @@ public static void main(String[] args) {
 
     System.out.println(Calculator.add(10 ,20 ));
     System.out.println(Calculator.add(10 ,20, 30 ));
-}
+}*/
 
 
 
