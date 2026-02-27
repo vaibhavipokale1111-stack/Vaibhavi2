@@ -8,7 +8,7 @@ public class Student {
 }
 class Demo {
     String name;
-    void Speak(String content ){
-        System.out.println(name + " : "+content);
+    void Speak(String content){
+        System.out.println(name+ " :"+content);
     }
 }
