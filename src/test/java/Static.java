@@ -1,31 +1,24 @@
-import java.lang.Object;
+class Example {
 
-public class Static {
-    static void Hello() {
-        System.out.println("Hello Vaibhavi");
-
+   
+    static void showMessage() {
+        System.out.println("This is a static method.");
     }
 
-    static int add(int a, int b) {
-        return a + b;
-    }
 
-    void display() {
-        System.out.println("i am anon static");
+    void displayInfo() {
+        System.out.println("This is a non-static method.");
     }
-
 
     public static void main(String[] args) {
 
-        Hello();
-        int result = add(10, 20);
-        System.out.println("sum :"+result);
 
-         Static s1 = new Static ();
-         s1.display();
+        showMessage();
 
 
+        Example obj = new Example();
 
 
+        obj.displayInfo();
     }
 }
