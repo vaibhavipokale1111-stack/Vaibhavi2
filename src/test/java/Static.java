@@ -1,6 +1,6 @@
 class Example {
 
-   
+
     static void showMessage() {
         System.out.println("This is a static method.");
     }
